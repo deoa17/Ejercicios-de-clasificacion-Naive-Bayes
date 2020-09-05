@@ -15,3 +15,9 @@ Objetivo: Construye un classificador usando los corpus del siguiente dataset: ht
 * Limpieza: como te diste cuenta no hicimos ningun tipo de limpieza de texto en los correos electrónicos. Considera usar expresiones regulares, filtros por categorias gramaticales, etc ...
 * Validación del modelo anterior: Una vez tengas el nuevo conjunto de datos más pulido y de mayor tamaño, considera el mismo entrenamiento con el mismo tipo de atributos del ejemplo anterior, ¿mejora el accuracy del modelo resultante?
 
+## Probando varios modelos de clasificación (Dataset multicategorial 1-5)
+Objetivo: Vectorización de texto como una generalización de los feature_sets y probar varios modelos de clasificación
+
+* Trabajando con un dataset pre-procesado (modelo multicategoria 1-5). Vectorización usado en el caso anterior con el dataset processed_stars
+
+* Probar varios modelos  RandomForestClassifier, BernoulliNB, ComplementNB, MultinomialNB
